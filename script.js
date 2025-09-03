@@ -16,7 +16,7 @@ document.getElementById("btn").addEventListener("click",(e)=>{
 		   output.textContent=`Result: ${result}`;
 		   return final(result);
    }).then((result)=>{
-		   output.textContent=`Final Result:${result}`;    
+		   output.textContent=`Final Result: ${result}`;    
    })
 })
 function show(result){
